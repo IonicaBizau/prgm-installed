@@ -15,17 +15,23 @@ $ npm i --save prgm-installed
 
 const prgmInstalled = require("prgm-installed");
 
-console.log(prgmInstalled());
+console.log(prgmInstalled("vim"));
+// => true
+
+prgmInstalled("vim", isInstalled => {
+    console.log(isInstalled);
+    // => true
+});
 ```
 
 ## Documentation
 
-### `prgmInstalled(a, b)`
+### `prgmInstalled(name, fn)`
 Check if a program is available on the system.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String** `name`: The executable name.
+- **Function** `fn`: The callback function.
 
 #### Return
 - **Number** Return description.
