@@ -34,7 +34,7 @@ Check if a program is available on the system.
 - **Function** `fn`: The callback function.
 
 #### Return
-- **Number** Return description.
+- **Boolean** `true`, if the provided executable is available, `false`, otherwise.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
