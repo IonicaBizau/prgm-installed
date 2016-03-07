@@ -15,7 +15,7 @@
     "system"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/prgm-installed/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/prgm-installed#readme"
+  "homepage": "https://github.com/IonicaBizau/prgm-installed#readme",
+  "dependencies": {
+    "which": "^1.2.4"
+  }
 }
