@@ -1,18 +1,20 @@
+
 # prgm-installed [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/prgm-installed.svg)](https://www.npmjs.com/package/prgm-installed) [![Downloads](https://img.shields.io/npm/dt/prgm-installed.svg)](https://www.npmjs.com/package/prgm-installed) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Check if a program is available on the system.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save prgm-installed
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const prgmInstalled = require("prgm-installed");
 
 console.log(prgmInstalled("vim"));
@@ -24,7 +26,8 @@ prgmInstalled("vim", isInstalled => {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `prgmInstalled(name, fn)`
 Check if a program is available on the system.
@@ -36,13 +39,18 @@ Check if a program is available on the system.
 #### Return
 - **Boolean** `true`, if the provided executable is available, `false`, otherwise.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`gm-installed`](https://github.com/IonicaBizau/gm-installed#readme)—Check if GraphicsMagick is installed.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
