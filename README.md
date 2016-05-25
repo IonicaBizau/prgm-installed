@@ -1,5 +1,7 @@
 
-# prgm-installed [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/prgm-installed.svg)](https://www.npmjs.com/package/prgm-installed) [![Downloads](https://img.shields.io/npm/dt/prgm-installed.svg)](https://www.npmjs.com/package/prgm-installed) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# prgm-installed
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/prgm-installed.svg)](https://www.npmjs.com/package/prgm-installed) [![Downloads](https://img.shields.io/npm/dt/prgm-installed.svg)](https://www.npmjs.com/package/prgm-installed) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Check if a program is available on the system.
 
@@ -48,6 +50,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 
+ - [`fortran`](https://github.com/IonicaBizau/node-fortran)—Fortran bridge for Node.js which allows you to run Fortran code from Node.js.
  - [`gm-installed`](https://github.com/IonicaBizau/gm-installed#readme)—Check if GraphicsMagick is installed.
 
 ## :scroll: License
