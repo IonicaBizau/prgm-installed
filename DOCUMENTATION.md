@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Check if a program is available on the system.
 
 #### Params
+
 - **String** `name`: The executable name.
 - **Function** `fn`: The callback function.
 
